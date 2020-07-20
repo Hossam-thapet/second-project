@@ -1,0 +1,144 @@
+body{
+	margin: 0; 
+	padding: 0;
+}
+
+a.navbar-brand.name{
+	font-family: Yellowtail;
+	font-size: 25px;
+	padding-right: 20px;
+}
+/*############signin##############*/
+div.row.space1{
+	width: 100%;
+	height :40px;
+}
+div.container-fluid.signupform{
+	display: none;
+}
+hr{
+	width: 900px;
+	text-align: center;
+	font-weight: 600;
+	background-color: black;
+}
+	
+
+div.requestfor{
+	margin-left: 70px;
+}
+.signupform form{
+	margin-left: 400px;
+}
+.row.signup h2{
+ margin: 20px;
+ padding-left: 30px;
+}
+
+input.inputpassword , input.inputname{
+	width:300px;
+	margin-top: 20px;
+	padding:3px;
+	margin-left:46px;
+	border-radius: 6px;
+}
+input.submit{
+	padding-top: 10px;
+	
+	
+}
+/*#################profile#####################*/
+.row.profile{
+	border: 10px soild black ;
+	width: 100%;
+	min-height: 300px;
+	background-color: #cccccc;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+	display: none;
+	overflow-x: hidden;
+	
+}
+div.row.coursesdone{
+	margin:80px;
+}
+.col-12.pr.title{
+	height: 70px;
+}
+.row.profile h3{
+	padding: 20px;
+}
+.row.coursesdone .col-12{
+	color: black;
+}
+/*##############courses###############*/
+
+row.mainbody{
+	margin-top: 50px;
+	
+}
+div.col-sm-2.pickup{
+	
+	padding: 0;
+	
+}
+ul.pick-languge{
+	list-style:none;
+	padding-left: 19px ;
+	margin: 0;
+	line-height: 2rem;
+	
+	width:120px;
+	background-color: #e6e6e6;
+	
+}
+ul.pick-languge li{
+	padding:0;
+	margin: 0;
+	font-weight: 600;
+	
+}
+ul.pick-languge li a{
+	color: #000033;
+	padding: 0; 
+	margin: 0;
+	text-decoration: none;
+	
+}
+ul.pick-languge :hover{
+
+	color:#0000cc;
+}
+div.col-sm-10.mainframe div.row-sm.devide{
+	
+	
+}
+div.row-sm.img div.col-9.mainimg img{
+	width: 75%;
+	margin-left: 200px;
+}
+/*#############courseselected#############*/
+div.row.coruseselected{
+	display:none;
+}
+div.card{
+	cursor: pointer;
+}
+div.row.coruseselected div.card{
+	margin: 10px;
+	margin-left: 60px;
+	
+}
+/*###########the end###############*/
+.col-4 ul{
+	margin-left: 100px;
+	
+}
+.col-4.media ul{
+	list-style: none;
+}
+.col-4.media ul li{
+	float:left;
+	margin-left: 20px;
+}

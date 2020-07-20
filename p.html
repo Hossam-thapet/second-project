@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
+	  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="p.css">
+	 
+
+    
+  </head>
+  <body>
+   <!#######navbar#########!>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand name" href="#">BARRA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+	  <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" onclick="home()">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="profile()">Profile</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#" onclick="signup()">Sign Up</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 mr-auto" id="gosearch">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchfield">
+      <input class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    </form>
+	  <form class="form-inline my-2 ml-auto">
+      <div class="form-control mr-sm-2" onload="mywatch()" id="watch">asdasdas</div>
+      <div class="form-control mr-sm-2" onload="mywatch()" id="date" >asdasdad</div>
+		 
+    </form>
+  </div>
+</nav>
+	  <!###########mainbody#############>
+	  <div class="row space1"></div>
+	  <!############signup############>
+	  
+	  <div class="row signup" id="signframe">
+		 <div class="requestfor">
+		  <h2>Sign Up To be APart</h2>
+		  <h2>Join US..</h2>
+		  </div>
+		<div class="container-fluid signupform"  id="showup">
+		<form >
+	  <div class="row 1 signup">
+       <input type="text" class="inputname" placeholder="UserName">
+		</div>
+		 <div class="row 2 signup">
+	   <input type="password" class="inputpassword" placeholder="Password">
+       <button type="submit" class="btn btn-secondary btn-sm w-25 mt-3 ml-5">Submit</button>
+			 
+			 </div>
+			</form>
+		  </div>
+		  </div>
+	  <hr>
+	  <!############courses############>
+	  <div class="row mainbody mt-4">
+		<div class="col-sm-2 pickup">
+		  <ul class="pick-languge" >
+			<li><a href="#" onclick="choice1()">C</a></li>
+			 <li><a href="#" onclick="choice2()">C++</a></li>
+			  <li><a href="#" onclick="choice3()">C--</a></li>
+			  <li><a href="#" onclick="choice4()">C#</a></li>
+			  <li><a href="#" onclick="choice5()">Pythoe</a></li>
+			  <li><a href="#" onclick="choice6()">Java</a></li>
+			  <li><a href="#" onclick="choice7()">JavaScript</a></li>
+			  <li><a href="#" onclick="choice8()">Html</a></li>
+			  <li><a href="#" onclick="choice9()">CSS</a></li>
+			  <li><a href="#" onclick="choice10()">A.NET</a></li>
+			  <li><a href="#" onclick="choice11()">PHP</a></li>
+			  <li><a href="#" onclick="choice12()">SQL</a></li>
+			</ul>
+		  </div>
+		 <div class="col-sm-8 mainframe" >
+			 <div class="row profile" id="myprofile">
+				 <div class="col-12 pr title">
+			 <h3>Courses you finshed</h3>
+					 <hr>
+					 </div>
+				 
+				<div class="row coursesdone">
+				 <div class="col-12" id="total"><h1>asdasdasa</h1></div>
+				 </div>
+				  </div>
+			 
+			<div class="row-sm devide" id="mainframe">
+	  <div class="card-deck">
+    <div class="card" id="lecimg" onclick="content()">
+  <img src="https://w1.pngwave.com/png/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clip-art.png" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title" id="lec">Lec. For</h5>
+    </div>
+  </div>
+  <div class="card" id="eximg">
+    <img src="https://w1.pngwave.com/png/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clip-art.png" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title" id="ex">Exampels</h5>
+    </div>
+  </div>
+  <div class="card" id="conimg">
+    <img src="https://w1.pngwave.com/png/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clip-art.png" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title" id="con">Contact with lecturers</h5>
+	  </div>
+    </div>
+  </div>
+</div>
+	<!########### courseselected##############!>
+  <div class="row coruseselected" id="selectcourse">
+	  <div class="card" style="width: 18rem;" onclick="intro()">
+  <img src="code.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Intrduction.</p>
+  </div>
+</div>
+	  <div class="card" style="width: 18rem;" onclick="cl1()">
+  <img src="code.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Class 1</p>
+  </div>
+</div>
+	  <div class="card" style="width: 18rem;" onclick="cl2()">
+  <img src="code.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Class 2</p>
+  </div>
+</div>
+	  <div class="card" style="width: 18rem;" onclick="cl3()">
+  <img src="code.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Class 3</p>
+  </div>
+</div>
+			 </div>
+ <div class= "row-sm img">
+	<div class="col-3 dis">
+	 <h2>Start your project</h2>
+		<h2>make Aplane..</h2>
+		
+		</div>
+	 <div class="col-9 mainimg">
+	<img src="https://i.ytimg.com/vi/X4rU02088Xc/maxresdefault.jpg">
+		 </div>
+			 </div>
+</div>
+</div>
+<!#############the end################>
+	  <br> 
+	  <hr>
+	  <br>
+	  <div class="row end">
+		<div class="col-sm-4">
+	  <ul>
+		  <li><a href="#">Support</a></li>
+		  <li><a href="#">Servers</a></li>
+		  <li><a href="#">How are we</a></li>
+	  </ul>
+			</div>
+		  <div class="col-sm-4 mid"></div>
+		  <div class="col-sm-4 media">
+			  <ul>
+		  <li><a href="#"><i class="fa fa-facebook-official" style="font-size:24px"></i></a></li>
+			  <li><a href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a></li>
+			  <li><a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
+			  <li><a href="#"><i class="fa fa-whatsapp" style="font-size:24px"></i></a></li>
+			  
+			 </ul>
+			
+		  </div>
+	  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="p.js"></script>
+  </body>
+</html>
